@@ -1,3 +1,9 @@
+# revision 20062
+# category Package
+# catalog-ctan /info/examples/Math-E
+# catalog-date 2010-10-11 21:01:03 +0200
+# catalog-license lppl1.3
+# catalog-version undef
 Name:		texlive-math-e
 Version:	20101011
 Release:	1
@@ -536,6 +542,7 @@ separately processed with LaTeX or PDFLaTeX.
 %doc %{_texmfdistdir}/doc/latex/math-e/exaartplain.cls
 %doc %{_texmfdistdir}/doc/latex/math-e/exareport.cls
 %doc %{_texmfdistdir}/doc/latex/math-e/exasymbol.cls
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -546,3 +553,5 @@ separately processed with LaTeX or PDFLaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
