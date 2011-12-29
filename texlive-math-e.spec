@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/math-e.doc.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 The bundle contains all the examples from the (English) book
@@ -542,7 +540,6 @@ separately processed with LaTeX or PDFLaTeX.
 %doc %{_texmfdistdir}/doc/latex/math-e/exaartplain.cls
 %doc %{_texmfdistdir}/doc/latex/math-e/exareport.cls
 %doc %{_texmfdistdir}/doc/latex/math-e/exasymbol.cls
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -553,5 +550,3 @@ separately processed with LaTeX or PDFLaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
