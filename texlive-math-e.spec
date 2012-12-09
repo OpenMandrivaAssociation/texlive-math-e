@@ -550,3 +550,17 @@ separately processed with LaTeX or PDFLaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20101011-2
++ Revision: 753776
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20101011-1
++ Revision: 718971
+- texlive-math-e
+- texlive-math-e
+- texlive-math-e
+- texlive-math-e
+
