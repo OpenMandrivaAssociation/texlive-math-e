@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-math-e
 Version:	20101011
-Release:	9
+Release:	10
 Summary:	Examples from the book Typesetting Mathematics with LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/examples/Math-E
