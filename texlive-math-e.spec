@@ -9,7 +9,7 @@ Version:	20180303
 Release:	3
 Summary:	Examples from the book Typesetting Mathematics with LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/examples/Math-E
+URL:		https://www.ctan.org/tex-archive/info/examples/Math-E
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/math-e.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/math-e.doc.tar.xz
